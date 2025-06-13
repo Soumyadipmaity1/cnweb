@@ -1,6 +1,13 @@
-@import 'https://fonts.cdnfonts.com/css/gang-of-three';
+/* @import 'https://fonts.cdnfonts.com/css/gang-of-three'; */
 @import "tailwindcss";
-@import 'https://fonts.cdnfonts.com/css/gang-of-three';
+/* @import 'https://fonts.cdnfonts.com/css/gang-of-three'; */
+
+@font-face {
+  font-family: 'Gang of Three';
+  src: url('/fonts/GangOfThree.woff2') format('woff2'),
+       url('/fonts/GangOfThree.ttf') format('truetype');
+  font-display: swap;
+}
 
 :root {
   --background: #ffffff;
